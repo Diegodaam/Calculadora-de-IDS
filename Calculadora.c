@@ -1,4 +1,4 @@
-# include <stdio.h>
+#include <stdio.h>
 
 int main(){
 
@@ -21,8 +21,16 @@ int main(){
         case 1: printf("Dijita el primer dijito: ");
         break;
         //resta
-        case 2: printf("Dijita el primer dijito: ");
-        break;
+        case 2: 
+            printf("Digita el primer digito: ");
+            scanf("%d",&num1);
+            printf("Digita el segundo digito: ");
+            scanf("%d",&num2); 
+
+            int resta = num1-num2;
+            printf("El resultado de la resta de %d y %d es igual a %d\n\n",num1,num2,resta);
+            break;
+
         //multiplicacion 
         case 3: printf("Dijita el primer dijito: ");
         break;
