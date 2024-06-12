@@ -1,8 +1,8 @@
 # include <stdio.h>
 
 int main(){
-
-    int opcion, num1, num2;
+    int opcion;
+    float  num1, num2;
     while(1){
     printf("1-Suman\n2-Resta\n3-Multiplicacion\n4-Divicion\n5-salir\n");
     printf("Selecciona el numero de la funcion que quieres hacer (1-4): ");
@@ -25,6 +25,11 @@ int main(){
         break;
         //multiplicacion 
         case 3: printf("Dijita el primer dijito: ");
+                scanf("%f", &num1);
+                printf("Dijita el segundo dijito: ");
+                scanf("%f", &num2);
+
+                printf("EL resultado de %.2f * %.2f es: %.2f", num1, num2, num1 *num2);
         break;
         //Divicion
         case 4: printf("Dijita el primer dijito: ");
