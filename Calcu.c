@@ -2,11 +2,9 @@
 
 int main(){
 
-    int opcion;
-    float num1, num2;
-
+    int opcion, num1, num2;
     while(1){
-    printf("1-Suma\n2-Resta\n3-Multiplicacion\n4-Division\n5-Salir\n");
+    printf("1-Suman\n2-Resta\n3-Multiplicacion\n4-Divicion\n5-salir\n");
     printf("Selecciona el numero de la funcion que quieres hacer (1-4): ");
     scanf("%d", &opcion);
 
@@ -21,42 +19,23 @@ int main(){
 
     switch(opcion){
         //suma
-        case 1: printf("Ingrese el primero numero: ");
-                scanf("%f",&num1);
-                printf("Ingrese el segundo numero: ");
-                scanf("%f",&num2);
-                printf("El resultado de %.2f + %.2f = %.2f\n", num1,num2, num1 + num2);
-                 
+        case 1: printf("Dijita el primer dijito: ");
         break;
         //resta
         case 2: printf("Dijita el primer dijito: ");
         break;
         //multiplicacion 
-        case 3: printf("Dijita el primer dijito: ");
-        break;
-        //Division
-        case 4: printf("Ingrese el primero numero: ");
+        case 3: printf("Ingrese el primero numero: ");
                 scanf("%f",&num1);
                 printf("Ingrese el segundo numero: ");
-                scanf("%f",&num2);
+                scanf("%f",&num2)
                 if (num2 != 0) {
-                    printf("Resultado: %.2f / %.2f = %.2f\n", num1, num2, (float)num1 / num2);
+                    printf("Resultado: %d / %d = %.2f\n", num1, num2, (float)num1 / num2);
                 } else {
                     printf("Error: No se puede dividir por cero.\n");
                 }
         break;
+        //Divicion
+        case 4: printf("Dijita el primer dijito: ");
+        break;
         //salir     
-
-
-
-
-
-
-
-
-
-        }
-    }
-
-    return 0;
-}
