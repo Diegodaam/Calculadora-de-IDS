@@ -34,15 +34,19 @@ int main(){
                  
         break;
         //resta
-        case 2: printf("Dijita el primer dijito: ");
+        case 2:  printf("Ingrese el primero numero: ");
+                scanf("%f",&num1);
+                printf("Ingrese el segundo numero: ");
+                scanf("%f",&num2);
+                printf("El resultado de %.2f - %.2f = %.2f\n", num1,num2, num1 - num2);
         break;
         //multiplicacion 
-        case 3: printf("Dijita el primer dijito: ");
+        case 3: printf("Ingrese el primer dijito: ");
                 scanf("%f", &num1);
-                printf("Dijita el segundo dijito: ");
+                printf("Ingrese el segundo dijito: ");
                 scanf("%f", &num2);
 
-                printf("EL resultado de %.2f * %.2f es: %.2f", num1, num2, num1 *num2);
+                printf("EL resultado de %.2f * %.2f es: %.2f\n", num1, num2, num1 *num2);
         break;
         //Division
         case 4: printf("Ingrese el primero numero: ");
