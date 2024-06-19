@@ -45,6 +45,7 @@ int main(){
                     printf("Error: No se puede dividir por cero.\n");
                 }
         break;
+
         //salir     
 
 
@@ -57,6 +58,7 @@ int main(){
 
         }
     }
+    printf("Hola mundo");
 
     return 0;
 }
