@@ -1,15 +1,8 @@
 # include <stdio.h>
 
 int main(){
-<<<<<<< HEAD
     int opcion;
     float  num1, num2;
-=======
-
-    int opcion;
-    float num1, num2;
-
->>>>>>> origin/master
     while(1){
     printf("Hola mundo");
     printf("1-Suma\n2-Resta\n3-Multiplicacion\n4-Division\n5-Salir\n");
